@@ -2,6 +2,7 @@
 
 ## Setup Environment - Anaconda
 ```
+1. Download & Install Anaconda pada halaman resmi berikut: https://www.anaconda.com/download/success
 conda create --name main-ds python=3.11.5
 conda activate main-ds
 pip install streamlit babel seaborn pandas matplotlib numpy
