@@ -4,13 +4,13 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load data
-top_10_cities = pd.read_csv("dataset/top_10_cities.csv")
-bottom_5_cities = pd.read_csv("dataset/bottom_5_cities.csv")
-top_10_states = pd.read_csv("dataset/top_10_states.csv")
-bottom_5_states = pd.read_csv("dataset/bottom_5_states.csv")
-top_10_products = pd.read_csv("dataset/top_10_products.csv")
-bottom_10_products = pd.read_csv("dataset/bottom_10_products.csv")
-monthly_sales = pd.read_csv("dataset/monthly_sales.csv")
+top_10_cities = pd.read_csv("top_10_cities.csv")
+bottom_5_cities = pd.read_csv("bottom_5_cities.csv")
+top_10_states = pd.read_csv("top_10_states.csv")
+bottom_5_states = pd.read_csv("bottom_5_states.csv")
+top_10_products = pd.read_csv("top_10_products.csv")
+bottom_10_products = pd.read_csv("bottom_10_products.csv")
+monthly_sales = pd.read_csv("monthly_sales.csv")
 
 # Menampilkan judul dashboard
 st.title("Dashboard E-Commerce")
